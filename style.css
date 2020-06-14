@@ -37,7 +37,7 @@
 
 /*Header start*/
 .header{
-	background:linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url(image/background.jpg);
+	background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url(image/background.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -331,13 +331,20 @@ float: right;
 	font-size: 26px;
 	font-weight: 400;
 	color: #777777;
-	display: inline-block;
+	display: flex;
+	margin-left: 16%;
+	margin-top: 35px;
+
 }
 .name{
 	font-size: 20px;
 	font-weight: 400;
 	color: #7690c5;
-	display: inline-block;
+	display: flex;
+	margin: 0px;
+	margin-left: 16%;
+	margin-bottom: 35px;
+
 }
 .review2{}
 .client2{
@@ -465,7 +472,7 @@ float: right;
 
 }
 .description{
-	width: 50%;
+	width: 60%;
 	float: left;
 
 }
@@ -515,7 +522,7 @@ float: right;
 
 }
 .reg{
-	width: 40%;
+	width: 35%;
 	float: right;
 	margin-top: 95px;
 
